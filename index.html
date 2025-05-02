@@ -1,25 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zachary Wasylyk's Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Zachary Wasylyk's Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
-    <body>
-        <div class="navbar">
-            <ul class="nav-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </div>
-        <section id="about">
-            <h2>About Me</h2>
-            <p> Hello! I am a University of Windsor graduate with a knack for problem solving. I plan to pursue a career in frontend software development. <br>
-                I have a passion for creating user-friendly interfaces and ensuring a seamless user experience. I am always eager to learn new technologies and improve my skills. <br>
-                Outside of coding, I enjoy reading fantasy and adventure novels, playing dungeons and dragons, as well as achivement hunting in video games. <br>
-                I am currently looking for opportunities to apply my skills and contribute to exciting projects. <br>
-            </p>
-    </body>
+<body>
+  <nav class="navbar">
+    <div class="logo">
+      <img src="Logo.jpg" alt="Logo" width="50" height="50" />
+    </div>
+    <div class="site-title">Zachary Wasylyk's Portfolio</div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="about" class="raised-section">
+    <h2>About Me</h2>
+    <p>
+      Hello! I am a University of Windsor graduate with a knack for problem solving. I plan to pursue a career in frontend software development.
+      I have a passion for creating user-friendly interfaces and ensuring a seamless user experience. I am always eager to learn new technologies and improve my skills.
+      Outside of coding, I enjoy reading fantasy and adventure novels, playing Dungeons and Dragons, as well as achievement hunting in video games.
+      I am currently looking for opportunities to apply my skills and contribute to exciting projects.
+    </p>
+  </section>
+
+  <section id="technologies" class="raised-section">
+    <div class="tech-container">
+      <div class="tech-card">
+        <h3>Languages</h3>
+        <ul class="tech-list">
+          <li>HTML</li><li>CSS</li><li>JavaScript</li><li>PHP</li><li>Python</li><li>Java</li><li>C#</li>
+        </ul>
+      </div>
+      <div class="tech-card">
+        <h3>Frameworks</h3>
+        <ul class="tech-list">
+          <li>React</li><li>jQuery</li><li>Flask</li>
+        </ul>
+      </div>
+      <div class="tech-card">
+        <h3>Tools</h3>
+        <ul class="tech-list">
+          <li>Git</li><li>GitHub</li><li>Visual Studio Code</li><li>Figma</li><li>Postman</li><li>MySQL</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="raised-section">
+    <h2>Projects</h2>
+    <div class="project-list">
+      <div class="tech-card">
+        <h3><a href="https://github.com/your-repo/destiny-101" target="_blank">Destiny 101</a></h3>
+        <p>A website created using PHP, HTML, CSS, and JavaScript. It provides users with a variety of builds for the MMO RPG "Destiny 2". Users can create an account, 
+            save their builds, and share them with others.
+        </p>
+      </div>
+      <div class="tech-card">
+        <h3><a href="https://github.com/your-repo/project2" target="_blank">Project 2</a></h3>
+        <p>Description of Project 2.</p>
+      </div>
+      <div class="tech-card">
+        <h3><a href="https://github.com/your-repo/project3" target="_blank">Project 3</a></h3>
+        <p>Description of Project 3.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="raised-section">
+    <h2>Contact Me</h2>
+    <p>If you would like to get in touch, feel free to reach out.</p>
+    <ul class="contact-list">
+      <li>Email: <a href="mailto:zachwasylyk@gmail.com">zachwasylyk@gmail.com</a></li>
+      <li>LinkedIn: <a href="https://www.linkedin.com/in/zach-wasylyk-1400a1337/" target="_blank" rel="noopener noreferrer">Zachary Wasylyk</a></li>
+      <li>Phone Number: 226-346-2607</li>
+    </ul>
+  </section>
+</body>
 </html>
